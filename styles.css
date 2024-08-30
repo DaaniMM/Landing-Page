@@ -1,0 +1,186 @@
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(218, 221, 218);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    padding-top: 330px;
+}
+
+
+header{
+    position:fixed;
+    width: 100%;
+}
+
+#header-img {
+    
+    width: 100%;
+    height: 20vh;
+    object-fit: contain;
+    background-color: rgb(4, 89, 169) ;
+}
+
+#nav-bar {
+    width: 100%;
+    margin-top: -10px;
+    background-color: rgb(175, 207, 248);
+    display: flex;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.nav-link {
+
+    font-family: fantasy, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5vh;
+}
+
+.text-section {
+
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.text {
+
+    font-size: 1.5vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.video-section {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#video {
+    width: 100%;
+}
+
+.section-title {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+#introduction, #nike, #adidas, #catalogo, #envios {
+    scroll-margin-top: 330px;
+}
+
+#nike, #adidas, #catalogo, #envios {
+    border: 1px solid red;
+    text-align: center;
+    font-size: 1.5vh;
+    border-radius: 10px;
+
+}
+
+#nike {
+    background-color: rgba(255, 0, 76, 0.87);
+}
+
+#adidas {
+    background-color: rgba(0, 47, 255, 0.795);
+}
+
+#envios {
+    background-color: rgba(255, 153, 0, 0.795);
+}
+
+.product-box {
+
+    height: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    text-align: center;
+}
+
+.player {
+   width: 100%;
+
+}
+
+.player-name {
+    font-size: 1.8vh;
+
+    margin-top: 0px;
+}
+
+.boots-photos {
+    width: 99%;
+
+}
+
+.boots-name{
+    font-size: 1.6vh;
+
+    margin-top: 0px;
+}
+
+button {
+    height: 3vh;
+}
+
+
+
+.send-section {
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h3 {
+    margin-top: 25px;
+}
+
+#register-section {
+    margin-top: 30px;
+}
+
+footer {
+    border: 1px solid rgb(175, 207, 248);;
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(175, 207, 248);
+    text-align: right;
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .video-section {
+    width: 50%;
+  }  
+}
